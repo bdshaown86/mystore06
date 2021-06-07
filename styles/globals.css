@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media (min-width: 600px){
+  .rootcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card{
+    max-width: 200px;
+    margin: 20px;
+  }
+}
+
+.authcard{
+    margin: 10px auto !important;
+    max-width: 500px !important;
+    /* background-color: aqua !important; */
+    padding: 10px;
+}
+input:focus {
+  border-bottom: 1px solid blue !important;
+  box-shadow: 0 1px 0 0 blue !important;
+}
+
+
+

@@ -1,0 +1,17 @@
+
+@media (min-width:600px){
+    .rootcard{
+        display: flex;
+        /* background-color: red; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .pcard{
+        max-width: 200px;
+        margin: 20px;
+        
+    }
+}
+
+
